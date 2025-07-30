@@ -1,73 +1,67 @@
-# Welcome to your Lovable project
+🎨 Theme Shifter Studio
+A React + TypeScript multi-theme web application with three distinct themes. Users can dynamically switch between themes that completely change the layout, fonts, structure, and colors.
 
-## Project info
+🔗 Live Demo: https://theme-shifter-studio.vercel.app
 
-**URL**: https://lovable.dev/projects/cba2c153-96d1-4267-b423-b316aba95f6a
+📌 Features
+🌈 Three unique themes:
 
-## How can I edit this code?
+Theme 1 – Minimal light layout with sans-serif fonts
 
-There are several ways of editing your application.
+Theme 2 – Dark mode with sidebar and bold serif fonts
 
-**Use Lovable**
+Theme 3 – Colorful card grid layout with playful Google font
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/cba2c153-96d1-4267-b423-b316aba95f6a) and start prompting.
+💾 Theme persists using localStorage
 
-Changes made via Lovable will be committed automatically to this repo.
+🧠 Theme state managed via React Context API
 
-**Use your preferred IDE**
+⚡ Responsive design with Tailwind CSS
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🔄 API integration from Fake Store API
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🔀 React Router with multiple pages (Home, About, Contact)
 
-Follow these steps:
+💻 Fully responsive and mobile-friendly
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🎥 Smooth animations when switching themes
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🛠 Tech Stack
+React (with Vite)
 
-# Step 3: Install the necessary dependencies.
-npm i
+TypeScript
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Tailwind CSS
+
+React Router
+
+Context API
+
+Fake Store API
+
+Google Fonts
+
+Vercel (for hosting)
+
+📁 Installation
+bash
+Copy
+Edit
+git clone https://github.com/your-username/theme-shifter-studio.git
+cd theme-shifter-studio
+npm install
 npm run dev
-```
+📸 Pages
+/ – Home Page
 
-**Edit a file directly in GitHub**
+/about – About Page
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+/contact – Contact Page
 
-**Use GitHub Codespaces**
+🧪 API Source
+Data fetched from: https://fakestoreapi.com/products
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🚀 Deploy
+App is deployed on Vercel:
+👉 https://theme-shifter-studio.vercel.app
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/cba2c153-96d1-4267-b423-b316aba95f6a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
